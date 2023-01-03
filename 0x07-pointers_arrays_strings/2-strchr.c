@@ -1,13 +1,23 @@
 #include "main.h"
+#define NULL 0
 
 /**
- * set_string - sets the value of a pointer to a char
- * @s: pointer we need to set ro.
- * @to: char to set
- * Return: no return.
+ * _strchr - locate 1st occurrence of char in string and returns pointer
+ * @s: string to search
+ * @c: target characer
+ * Return: pointer to that character in string
  */
 
-void set_string(char **s, char *to)
+char *_strchr(char *s, char c)
 {
-	*s = to;
+	int i = 0;
+
+	while (s[i] != '\0' && s[i] != c)
+	i++;
+
+	if (s[i] == c)
+	return (&s[i]);
+
+	else
+	return (NULL);
 }
