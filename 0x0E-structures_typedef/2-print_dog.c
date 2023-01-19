@@ -6,7 +6,9 @@
  * @d: struct dog.
  * Return: no return.
  */
+
 void print_dog(struct dog *d)
+
 {
 	if (d)
 	{
