@@ -1,4 +1,4 @@
-Low Level Programming In C
+🔅 Low Level Programming In C 🔅
 
 In addition to the high level language constructs, (data type and operators), C also supports low level programming features which enable the programmer to carry out bit-wise operations. These features are normally provided in assembly language or machine language. The bit level operations and register variables discussed in this section can be thought of as a bridge between high level programming constructs and assembly / machine language operations.
 
@@ -22,6 +22,4 @@ Operators such as one's complement operator, the logical operator, and shift ope
 
 
 The one's complement operator (~)
-The unary operator (the tilde symbol ~) complements each individual bit of its operand so that 1�s become 0's and 0's become 1's. The operator precedes the operand, where the operand is always an integer quantity (an unsigned octal or unsigned hexadecimal number).
-
-In the following example, this operator has been used to find one's complement of a hexadecimal operand in a word of 16 bits.
+The unary operator (the tilde symbol ~) complements each individual bit of its operand so that 1�s become 0's and 0's become 1's. The operator precedes the operand, where the operand is always an integer quantity (an unsigned octal or unsigned hexadecimal numbers)
